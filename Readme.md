@@ -117,7 +117,7 @@ You can also run migrations incrementally by specifying a migration.
     up : migrations/1316027433425-coolest-pet.js
     migration : complete
 
-This will run up-migrations upto (and including) `1316027433425-coolest-pet.js`. Similarly you can run down-migrations upto (and including) a specific migration, instead of migrating all the way down.
+This will run up-migrations up to (and including) `1316027433425-coolest-pet.js`. Similarly you can run down-migrations up to (and including) a specific migration, instead of migrating all the way down.
 
     $ migrate down 1316027432512-add-jane.js
     down : migrations/1316027432575-add-owners.js
